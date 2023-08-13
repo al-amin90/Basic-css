@@ -1,0 +1,43 @@
+.blog {
+    background-color: brown;
+    color: white;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 100px;
+
+}
+
+header {
+    height: 400px;
+    /* background-image: url(../images/download.jpeg); */
+    background-image: url(../images/download.png);
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-blend-mode: multiply; */
+}
+
+header .wel {
+    color: rgb(252, 101, 0);
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+span {
+    border: 1px solid goldenrod;
+    height: 30px;
+    width: 80px;
+    /* margin: 59px; */
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="password"] {
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+}
